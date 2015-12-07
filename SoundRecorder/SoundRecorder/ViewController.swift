@@ -61,7 +61,7 @@ class ViewController:
     // get a directory in which to save the sound file
     func getCacheDirectory() -> String
     {
-        let paths = NSSearchPathForDirectoriesInDomains(.CachesDirectory,.UserDomainMask, true) as! [String]
+        let paths = NSSearchPathForDirectoriesInDomains(.CachesDirectory,.UserDomainMask, true) as [String]
 
         return paths[0]
     }
